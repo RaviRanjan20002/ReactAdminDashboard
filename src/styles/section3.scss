@@ -1,0 +1,70 @@
+.section3{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+    top:90px;
+}
+.sale,
+.salestats,
+.studentQueries{
+    width: 200px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+
+/* Assuming this is your CSS file named Section3.css */
+
+// .section3 {
+//     display: flex;
+//     flex-direction:row;
+//     align-items: center;
+//     padding: 20px;
+//   }
+  
+//   .sale,
+//   .salestats,
+//   .studentQueries {
+//     display: flex;
+//     flex-direction:column;
+//     justify-content: space-around;
+//     width: 100%;
+//     margin-bottom: 20px;
+//   }
+  
+//   .sale div,
+//   .salestats div,
+//   .studentQueries div {
+//     text-align: center;
+//   }
+  
+//   .studentQueries {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+//     gap: 20px;
+//   }
+  
+//   .studentQueries div {
+//     text-align: center;
+//     padding: 10px;
+//     border: 1px solid #ddd;
+//   }
+  
+//   #Approved {
+//     color: green;
+//   }
+  
+//   #Decline {
+//     color: red;
+//   }
+  
+  

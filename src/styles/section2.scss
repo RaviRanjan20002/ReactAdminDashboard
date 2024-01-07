@@ -1,0 +1,34 @@
+.chart{
+    display: flex;
+    width:100%;
+    position: relative;
+    top:20px;
+}
+.bar{
+    position: relative;
+    top:8px;
+}
+.graph2{
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+.graph22{
+    color: rgb(235, 56, 11);
+    text-align: center;
+    font-weight: bold;
+}
+.s2header,.s2list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+}
+.s2list{
+    position: relative;
+    right:-100px;
+}
+.dot{
+    position: relative;
+    right:50px;
+}

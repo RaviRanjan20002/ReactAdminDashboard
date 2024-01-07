@@ -1,0 +1,68 @@
+.pagecontainer{
+  width:100%;
+}
+.dcontainer{
+  width:100%;
+  // display: flex;
+  // flex-direction: column;
+  // background-color: white;
+  // position:absolute;
+  // left:200px;
+  overflow: hidden;
+}
+.home{
+  display: flex;
+  justify-content:space-around;
+}
+.search{
+position:relative;
+display: flex;
+align-items: center;
+}
+.searchicon{
+    position: absolute;
+}
+input[type=search]{
+  text-indent: 15px;
+  width:220px;
+  padding: 5px;
+}
+.himg{
+  height:35px;
+  width:35px;
+}
+.leftheader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightheader{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.bt{
+  margin:20px;
+}
+.btt{
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+}
+.maddesigner {
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+}
+.maddesigner h6, .maddesigner p {
+  margin:1px;
+}
+.dcontainer-open{
+  position:absolute;
+  left:200px;
+  width:85%;
+}
+.dcontainer-closed{
+  position:absolute;
+  left:0px;
+}
